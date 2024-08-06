@@ -22,6 +22,7 @@
 #### 시작페이지
 - 시작페이지
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/subway1.png">
+
 #### 메인페이지
 - 출발역, 도착역 선택 X
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/subway2.png">
