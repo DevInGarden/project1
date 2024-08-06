@@ -10,4 +10,4 @@
 |프론트엔드|백엔드|
 |:---:|:---:|
 |김정원|장민우|
-|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/jwkim97211)|
+|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/jwkim97211)|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gajahtml)|
