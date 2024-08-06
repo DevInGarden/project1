@@ -19,9 +19,7 @@
 5. 출발역의 미세먼지 정보 제공
 
 ### 구현 결과
-
-
 #### 시작페이지
-
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/subway1.png">
 
 #### 메인페이지
