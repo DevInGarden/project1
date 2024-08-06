@@ -11,11 +11,17 @@
 |김정원|장민우|
 |[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/jwkim97211)|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/gajahtml)|
 
-
 ### 주요기능
-
 1. 출발역과 도착역 선택 시 환승역 안내
 2. 실시간 최단거리 및 도착시간, 소요시간 안내
 3. 도착역 지도 제공
 4. 타려는 열차의 혼잡도 정보 제공
 5. 출발역의 미세먼지 정보 제공
+
+### 구현 결과
+
+
+#### 시작페이지
+
+
+#### 메인페이지
