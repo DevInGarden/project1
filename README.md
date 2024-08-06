@@ -23,3 +23,11 @@
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/subway1.png">
 
 #### 메인페이지
+- 출발역, 도착역 선택 X
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/subway2.png">
+
+- 출발역, 도착역 선택 O(출발역 미세먼지 측정기 X)
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/subway3.png">
+
+- 출발역, 도착역 선택 O(출발역 미세먼지 측정기 O)
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/subway4.png">
