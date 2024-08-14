@@ -13,7 +13,7 @@
 
 ### 개발 과정
 - 사용자가 선택한 출발역에 도착 중인 열차와 다음에 도착할 열차의 정보를 실시간으로 제공합니다. 각 열차의 호차별 혼잡도를 시각적으로 표시하여 사용자가 현재 열차의 혼잡 상황과 호차별 빈자리 상태를 한눈에 알 수 있습니다. 각 호선의 차량 수 차이를 고려하여 호선마다 서로 다른 기준으로 혼잡도를 계산하고 표시하였습니다. 원래는 지하철 객실 내 CCTV 이미지를 이용한 객체 탐지(Object Detection) 기술을 통해 빈자리 개수를 분석하여 서비스를 제공하려 했으나, 지하철 객실 내 CCTV 이미지를 제공받지 못해 현재는 랜덤 수를 기반으로 혼잡도를 시각화하고 있습니다.
-<img src="https://github.com/jwkim97211/project1/blob/main/assets/page3.png" style="border: 2px solid black;">
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/page3.png">
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/page4.png">
 
  - 초기에는 부산교통공사에서 제공된 지하철 노선도 이미지를 활용하여, React의 Image Mapper 라이브러리를 사용해 사용자가 지하철 노선도에서 특정 역을 클릭하면 해당 역의 상세 정보를 제공하는 인터페이스를 구현했습니다. 그러나 프로젝트 진행 중 동해선과 부산김해경전철의 데이터가 부족하여, 해당 노선들을 제외하고 Figma를 사용하여 1, 2, 3, 4호선만 포함된 새로운 노선도를 직접 제작하였습니다.
