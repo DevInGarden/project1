@@ -11,7 +11,14 @@
 |김정원|장민우|
 |[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/DevInGarden)|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/minwoowow)|
 
-### 개발 과정
+### 주요기능
+1. 출발역과 도착역 선택 시 환승역 안내
+2. 실시간 최단거리 및 도착시간, 소요시간 안내
+3. 도착역 지도 제공
+4. 타려는 열차의 혼잡도 정보 제공
+5. 출발역의 미세먼지 정보 제공
+
+### 구현 내용
 - 사용자가 선택한 출발역에 도착 중인 열차와 다음에 도착할 열차의 정보를 실시간으로 제공합니다. 각 열차의 호차별 혼잡도를 시각적으로 표시하여 사용자가 현재 열차의 혼잡 상황과 호차별 빈자리 상태를 한눈에 알 수 있습니다. 각 호선의 차량 수 차이를 고려하여 호선마다 서로 다른 기준으로 혼잡도를 계산하고 표시하였습니다. 원래는 지하철 객실 내 CCTV 이미지를 이용한 객체 탐지(Object Detection) 기술을 통해 빈자리 개수를 분석하여 서비스를 제공하려 했으나, 지하철 객실 내 CCTV 이미지를 제공받지 못해 현재는 랜덤 수를 기반으로 혼잡도를 시각화하고 있습니다.
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/page3.png">
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/page4.png">
@@ -32,13 +39,6 @@
   <img src="https://github.com/jwkim97211/project1/blob/main/assets/air1.PNG" width="45%">
   <img src="https://github.com/jwkim97211/project1/blob/main/assets/air2.PNG" width="45%">
 </div>
-
-### 주요기능
-1. 출발역과 도착역 선택 시 환승역 안내
-2. 실시간 최단거리 및 도착시간, 소요시간 안내
-3. 도착역 지도 제공
-4. 타려는 열차의 혼잡도 정보 제공
-5. 출발역의 미세먼지 정보 제공
 
 ### 구현 결과
 #### 시작페이지
