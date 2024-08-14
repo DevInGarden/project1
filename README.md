@@ -17,11 +17,14 @@
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/figma.png">
 
 - 사용자가 현재 시각을 기준으로 열차 정보를 실시간으로 확인할 수 있도록 현재 날짜와 시간을 표시합니다. 사용자는 출발역과 도착역을 선택하여 두 역 사이의 실시간 열차 도착 시간, 환승역 정보, 예상 소요 시간을 확인할 수 있습니다.
-
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/page1.png">
 
 - 카카오맵 API를 통해 도착역의 각 출구 위치와 출구별로 주요 시설 정보를 제공합니다. 사용자는 지도에서 원하는 출구로 쉽게 이동하거나 특정 시설을 찾아볼 수 있습니다. 이 기능은 사용자가 도착 후의 편리한 이동을 돕기 위해 중요한 역할을 합니다.
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/page2.png">
 
 - 사용자가 선택한 역에서 도착 중인 열차와 다음에 도착할 열차의 정보를 실시간으로 제공합니다. 각 열차의 호차별 혼잡도를 시각적으로 표시하여 사용자가 현재 열차의 혼잡 상황과 호차별 빈자리 상태를 한 눈에 알 수 있습니다. 각 호선의 차량 수 차이를 고려하여 호선마다 서로 다른 기준으로 혼잡도를 계산하고 표시하였습니다.
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/page3.png">
+<img src="https://github.com/jwkim97211/project1/blob/main/assets/page4.png">
 
 ### 주요기능
 1. 출발역과 도착역 선택 시 환승역 안내
