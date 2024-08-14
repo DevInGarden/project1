@@ -11,6 +11,9 @@
 |김정원|장민우|
 |[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/DevInGarden)|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/minwoowow)|
 
+### 개발 과정
+초기에는 부산교통공사에서 제공된 지하철 노선도 이미지를 활용하여, React의 Image Mapper 라이브러리를 사용해 사용자가 지하철 노선도에서 특정 역을 클릭하면 해당 역의 상세 정보를 제공하는 인터페이스를 구현했습니다. 그러나 프로젝트 진행 중 동해선과 부산김해경전철의 데이터가 부족하여, 해당 노선들을 제외하고 Figma를 사용하여 1, 2, 3, 4호선만 포함된 새로운 노선도를 직접 제작하였습니다.
+
 ### 주요기능
 1. 출발역과 도착역 선택 시 환승역 안내
 2. 실시간 최단거리 및 도착시간, 소요시간 안내
