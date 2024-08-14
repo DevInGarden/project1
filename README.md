@@ -12,9 +12,19 @@
 |[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/DevInGarden)|[<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">](https://github.com/minwoowow)|
 
 ### 개발 과정
-초기에는 부산교통공사에서 제공된 지하철 노선도 이미지를 활용하여, React의 Image Mapper 라이브러리를 사용해 사용자가 지하철 노선도에서 특정 역을 클릭하면 해당 역의 상세 정보를 제공하는 인터페이스를 구현했습니다. 그러나 프로젝트 진행 중 동해선과 부산김해경전철의 데이터가 부족하여, 해당 노선들을 제외하고 Figma를 사용하여 1, 2, 3, 4호선만 포함된 새로운 노선도를 직접 제작하였습니다.
+ - 초기에는 부산교통공사에서 제공된 지하철 노선도 이미지를 활용하여, React의 Image Mapper 라이브러리를 사용해 사용자가 지하철 노선도에서 특정 역을 클릭하면 해당 역의 상세 정보를 제공하는 인터페이스를 구현했습니다. 그러나 프로젝트 진행 중 동해선과 부산김해경전철의 데이터가 부족하여, 해당 노선들을 제외하고 Figma를 사용하여 1, 2, 3, 4호선만 포함된 새로운 노선도를 직접 제작하였습니다.
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/image.png">
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/figma.png">
+
+- 사용자가 현재 시각을 기준으로 열차 정보를 실시간으로 확인할 수 있도록 현재 날짜와 시간을 표시합니다. 사용자는 출발역과 도착역을 선택하여 두 역 사이의 실시간 열차 도착 시간, 환승역 정보, 예상 소요 시간을 확인할 수 있습니다.
+
+
+- 카카오맵 API를 통해 도착역의 각 출구 위치와 출구별로 주요 시설 정보를 제공합니다. 사용자는 지도에서 원하는 출구로 쉽게 이동하거나 특정 시설을 찾아볼 수 있습니다. 이 기능은 사용자가 도착 후의 편리한 이동을 돕기 위해 중요한 역할을 합니다.
+
+- 사용자가 선택한 역에서 도착 중인 열차와 다음에 도착할 열차의 정보를 실시간으로 제공합니다. 각 열차의 호차별 혼잡도를 시각적으로 표시하여 사용자가 현재 열차의 혼잡 상황과 호차별 빈자리 상태를 한 눈에 알 수 있습니다. 각 호선의 차량 수 차이를 고려하여 호선마다 서로 다른 기준으로 혼잡도를 계산하고 표시하였습니다.
+![image](https://github.com/user-attachments/assets/0a3bd8be-1e67-4c9f-9d1e-6037f62ee0c0)
+
+
 
 ### 주요기능
 1. 출발역과 도착역 선택 시 환승역 안내
