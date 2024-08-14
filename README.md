@@ -26,13 +26,12 @@
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/page3.png">
 <img src="https://github.com/jwkim97211/project1/blob/main/assets/page4.png">
 
-- 사용자가 선택한 출발역의 초미세먼지와 이산화탄소 값을 시각화합니다. 공기질 측정기가 없는 역의 경우 "측정 기계 없음"이라는 텍스트가 표시되며, 공기질 측정기가 있는 역은 초미세먼지와 이산화탄소 농도에 따라 다른 이모티콘과 텍스트가 나타납니다. 이를 통해 사용자는 역의 공기질 상태를 한눈에 파악할 수 있습니다.
+- 실내공기질 API를 통해 사용자가 선택한 출발역의 초미세먼지와 이산화탄소 값을 시각화합니다. 공기질 측정기가 없는 역의 경우 "측정 기계 없음"이라는 텍스트가 표시되며, 공기질 측정기가 있는 역은 초미세먼지와 이산화탄소 농도에 따라 다른 이모티콘과 텍스트가 나타납니다. 이를 통해 사용자는 역의 공기질 상태를 한눈에 파악할 수 있습니다.
 
 <div align="center">
   <img src="https://github.com/jwkim97211/project1/blob/main/assets/air1.PNG" width="45%">
   <img src="https://github.com/jwkim97211/project1/blob/main/assets/air2.PNG" width="45%">
 </div>
-
 
 ### 주요기능
 1. 출발역과 도착역 선택 시 환승역 안내
